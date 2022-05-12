@@ -1,0 +1,23 @@
+{
+  "name": "stress-test-k6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-k6": "C:\\Program Files\\k6\\k6.exe\" run api.test.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyblues/stress-test-k6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyblues/stress-test-k6/issues"
+  },
+  "homepage": "https://github.com/jyblues/stress-test-k6#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
