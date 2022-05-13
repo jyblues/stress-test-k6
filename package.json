@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "api-server": "node test.api.server.js",
-    "start": "k6 run api.test.ts",
+    "start": "k6 run --vus 10 --duration 10s --out json=test.json api.test.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jyblues/stress-test-k6#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "underscore": "^1.13.3"
   }
 }
